@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: #eee;
+}
+
+.container {
+    width: 740px;
+    margin: 0 auto; /* this will center the contents of the div */
+}
+
+h1, p {
+    padding: 20px;
+    margin: 10px;
+}
+
+h1 {
+    display: inline-block;
+    width: 220px;
+    background-color: darkslategrey;
+}
+
+.red {
+    background-color: orangered;
+    text-align: center;
+}
+
+#purple {
+    background-color: rebeccapurple;
+    text-align: right;
+}
+
+p {
+    display: inline-block;
+    width: 220px;
+    background-color: #555;
+    border: 10px dashed magenta;
+}
+
+img {
+    width: 220px;
+    vertical-align: top;
+    margin: 10px;
+}
